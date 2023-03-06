@@ -1,0 +1,98 @@
+.scroller {
+  width: 490px;
+  height: 255px;
+  max-height: 81vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.chat {
+    margin: 3px;
+    padding: 13px;
+    max-width: 640px;
+    min-height: 81vh;
+    background-color: rgba(235, 228, 210, 0.4);
+    padding: 5px 5px;
+    border-radius: 8.5px;
+}
+
+.into {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+    border: 8.5px solid #afd2e4;
+    border-radius: 8.5px;
+}
+
+.messageIn {
+    padding: 8px;
+    outline: none;
+    min-width: 370px;
+    border: 4.5px solid #afd2e4;
+    border-radius: 4.5px;
+    margin: 5px 7px;
+    font-size: 12px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+.chatField {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3px;
+  padding: 10px 8px;
+  background-color: transparent;
+  min-height: 81vh;
+  overflow-y: auto;
+  border-radius: 8.5px;
+  border: 8.5px solid #afd2e4;
+}
+
+.message {
+    max-width: 292px;
+    margin-bottom: 10px;
+    border-radius: 9.5px;
+    word-wrap: break-word;
+    padding: 5px 7px;
+}
+
+.cli-message, .serv-message {
+    border: 4.5px solid #afd2e4;
+    border-radius: 5.5px;
+    margin: 1px -3px;
+}
+
+.cli-message {
+    align-self: flex-end;
+}
+
+.serv-message {
+    align-self: flex-start;
+}
+
+.btn-send, .btn-geo {
+  outline: none;
+  cursor: pointer;
+  padding: 7px 7px;
+  border: 4.5px solid #afd2e4;
+  margin: 4px 1px;
+  border-radius: 5.5px;
+  color: #232d32;
+  background-color: #afd2e4;
+  transition: 0.5s;
+}
+
+.btn {
+  padding: 7px 30px;
+  background-color: #afd2e4;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #afd2e4;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+  transform: scale(1.05);
+}
